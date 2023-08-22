@@ -4,6 +4,12 @@
 
 Welcome to the MedicalGPT project's README. Here, we'll introduce you to our AI generative models designed to assist in answering medical queries. Our initiative includes three distinct models, each contributing to the goal of providing medical-related answers. Please keep in mind that our models' usage and answer quality are currently limited due to dataset constraints and resource availability.
 
+### Summary of update on model:
+1. Custom Model: Exploring on 35 M paramerters.
+2. LLAMA2 7B Parameters: Awesome results. Currently dropped as it doesn't allow commercial use.
+3. Falcon 7B Parameters: Great result. Making model more faster and removing bug which causes it to repeat responses multiple times.
+4. Open API: Exploring...
+
 
 ##
 ## Custom Model
@@ -69,6 +75,43 @@ The Falcon model, a valuable addition to MedicalGPT, has undergone fine-tuning o
 4. **Fine-Tuning Process**: Fine-tune the Falcon model to excel in medical text generation.
 5. **Text Generation**: Use the model to generate medical text based on user queries.
 6. **Working within Constraints**: Keep in mind that the model's output is influenced by the dataset's quality and the resource limitations.
+
+### Model-Working Update:
+> User: drug overdose
+
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken. Some drugs, like heroin and cocaine, can cause an overdose by affecting the body's nervous system. Other drugs, like prescription medications, can also cause an overdose if taken in large amounts.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken. Some drugs, like heroin and cocaine, can cause an overdose by affecting the body's nervous system. Other drugs, like prescription medications, can also cause an overdose if taken in large amounts.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken.
+>
+> Bot: An overdose of a drug can be dangerous and potentially fatal. It can cause harmful effects on the body, including damage to the heart, liver, kidneys, and brain.
+>
+> Bot: The risk of an overdose depends on the type of drug and the amount taken.
+>
+> Bot: An overdose
+
+
+> CPU times: user 16min 8s, sys: 1.5 s, total: 16min 10s, Wall time: 16min 14s
+
 
 ## Project Outlook
 
