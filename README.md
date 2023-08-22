@@ -37,7 +37,7 @@ Our LLAMA2 trained model is a fine-tuned version optimized for generating medica
 
 ### Usage
 
--llama1-. **Model Loading**: Load the pre-trained LLAMA2 model provided by the MedicalGPT project.
+1. **Model Loading**: Load the pre-trained LLAMA2 model provided by the MedicalGPT project.
 2. **Chatbot Construction**: Construct a specialized chatbot tailored for medical queries.
 3. **Retrieval QA Chain**: Utilize a Retrieval QA chain to process and respond to user queries.
 4. **User Interaction**: Engage in meaningful interactions with users, offering medical insights.
